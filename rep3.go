@@ -3,14 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var numero int
-
-	fmt.Println("Digite um número inteiro:")
-	fmt.Scanln(&numero)
-
-	if numero%2 == 0 {
-		fmt.Println("O número é par.")
-	} else {
-		fmt.Println("O número é ímpar.")
+	for i := 1; i <= 19; i += 2 {
+		fmt.Println(i)
 	}
 }
